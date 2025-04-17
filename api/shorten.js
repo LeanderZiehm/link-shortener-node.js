@@ -1,4 +1,4 @@
-import { connectToDatabase } from '../../lib/mongo';
+import { connectToDatabase } from './mongo'; 
 
 export default async function handler(req, res) {
   const { url, name } = req.query;
